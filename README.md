@@ -7,8 +7,8 @@
 ## 使用方法
 
 ```
-git clone https://github.com/zijiren233/Docker-Only-Office-Chinese-font.git
-cd Docker-Only-Office-Chinese-font
+git clone https://github.com/zijiren233/onlyoffice-chinese
+cd onlyoffice-chinese
 docker build -t onlyoffice/chinese .
 ```
 
