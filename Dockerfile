@@ -1,4 +1,5 @@
 FROM onlyoffice/documentserver:6.4.2.6
+RUN rm -rf /var/www/onlyoffice/documentserver/core-fonts/*
 COPY winfont /usr/share/fonts/winfont
 RUN fc-cache -f -v
 EXPOSE 80 443
